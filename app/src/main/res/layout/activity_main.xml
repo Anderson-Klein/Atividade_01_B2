@@ -4,21 +4,21 @@
     android:orientation="vertical">
 
     <!-- RecyclerView -->
-    <androidx.recyclerview.widget.RecycleView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
-        android:layout_width="match_content"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
     <!-- Input para adicionar novos itens -->
-    <EditTexxt
+    <EditText
         android:id="@+id/input_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Adicione um item"/>
 
     <!-- Botão para adicionar -->
-    <Buttoon
+    <Button
         android:id="@+id/add_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
